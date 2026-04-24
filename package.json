@@ -1,0 +1,11 @@
+{
+  "name": "reachr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && .venv/bin/uvicorn main:app --reload --port 8000",
+    "docker:up": "docker compose up --build",
+    "docker:down": "docker compose down"
+  }
+}
